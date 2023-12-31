@@ -55,6 +55,9 @@
       "@activepieces/piece-calendly": ["packages/pieces/calendly/src/index.ts"],
       "@activepieces/piece-cartloom": ["packages/pieces/cartloom/src/index.ts"],
       "@activepieces/piece-certopus": ["packages/pieces/certopus/src/index.ts"],
+      "@activepieces/piece-circlenetic": [
+        "packages/pieces/circlenetic/src/index.ts"
+      ],
       "@activepieces/piece-clearout": ["packages/pieces/clearout/src/index.ts"],
       "@activepieces/piece-clickup": ["packages/pieces/clickup/src/index.ts"],
       "@activepieces/piece-clockodo": ["packages/pieces/clockodo/src/index.ts"],
