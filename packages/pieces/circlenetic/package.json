@@ -1,4 +1,12 @@
 {
   "name": "@activepieces/piece-circlenetic",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.6.1",
+    "types": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  }
 }
