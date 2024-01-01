@@ -113,13 +113,13 @@ async function scrollPageToBottom(page: puppeteer.Page, scrollX: number, scrollY
 }
 
 async function itemMapping(content: string, listItemSelector: string) {
-  const returnValues = [];
+  const returnValues: any[] = [];
   const $ = cheerio.load(content);
 
   const listItemElements = $(listItemSelector)
-  listItemElements.each((index, element) => {
-    returnValues.push($(element).text());
+  listItemElements.map((index, element) => {
+    returnValues.push($(element).html());
   });
-
+  return returnValues;
 }
 
